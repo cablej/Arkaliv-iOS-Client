@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1E444D31B46BA88000708D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444D21B46BA88000708D5 /* AppDelegate.swift */; };
+		D1E444D51B46BA88000708D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444D41B46BA88000708D5 /* ViewController.swift */; };
+		D1E444D81B46BA88000708D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E444D61B46BA88000708D5 /* Main.storyboard */; };
+		D1E444DA1B46BA88000708D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E444D91B46BA88000708D5 /* Assets.xcassets */; };
+		D1E444DD1B46BA88000708D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E444DB1B46BA88000708D5 /* LaunchScreen.storyboard */; };
+		D1E444E81B46BA88000708D5 /* ArkalivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444E71B46BA88000708D5 /* ArkalivTests.swift */; };
+		D1E444F31B46BA88000708D5 /* ArkalivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444F21B46BA88000708D5 /* ArkalivUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1E444E41B46BA88000708D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E444C71B46BA88000708D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E444CE1B46BA88000708D5;
+			remoteInfo = Arkaliv;
+		};
+		D1E444EF1B46BA88000708D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E444C71B46BA88000708D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E444CE1B46BA88000708D5;
+			remoteInfo = Arkaliv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1E444CF1B46BA88000708D5 /* Arkaliv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkaliv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E444D21B46BA88000708D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1E444D41B46BA88000708D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1E444D71B46BA88000708D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1E444D91B46BA88000708D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1E444DC1B46BA88000708D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1E444DE1B46BA88000708D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E444E31B46BA88000708D5 /* ArkalivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkalivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E444E71B46BA88000708D5 /* ArkalivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkalivTests.swift; sourceTree = "<group>"; };
+		D1E444E91B46BA88000708D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E444EE1B46BA88000708D5 /* ArkalivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkalivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E444F21B46BA88000708D5 /* ArkalivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkalivUITests.swift; sourceTree = "<group>"; };
+		D1E444F41B46BA88000708D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1E444CC1B46BA88000708D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E444E01B46BA88000708D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E444EB1B46BA88000708D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1E444C61B46BA88000708D5 = {
+			isa = PBXGroup;
+			children = (
+				D1E444D11B46BA88000708D5 /* Arkaliv */,
+				D1E444E61B46BA88000708D5 /* ArkalivTests */,
+				D1E444F11B46BA88000708D5 /* ArkalivUITests */,
+				D1E444D01B46BA88000708D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E444D01B46BA88000708D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1E444CF1B46BA88000708D5 /* Arkaliv.app */,
+				D1E444E31B46BA88000708D5 /* ArkalivTests.xctest */,
+				D1E444EE1B46BA88000708D5 /* ArkalivUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E444D11B46BA88000708D5 /* Arkaliv */ = {
+			isa = PBXGroup;
+			children = (
+				D1E444D21B46BA88000708D5 /* AppDelegate.swift */,
+				D1E444D41B46BA88000708D5 /* ViewController.swift */,
+				D1E444D61B46BA88000708D5 /* Main.storyboard */,
+				D1E444D91B46BA88000708D5 /* Assets.xcassets */,
+				D1E444DB1B46BA88000708D5 /* LaunchScreen.storyboard */,
+				D1E444DE1B46BA88000708D5 /* Info.plist */,
+			);
+			path = Arkaliv;
+			sourceTree = "<group>";
+		};
+		D1E444E61B46BA88000708D5 /* ArkalivTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1E444E71B46BA88000708D5 /* ArkalivTests.swift */,
+				D1E444E91B46BA88000708D5 /* Info.plist */,
+			);
+			path = ArkalivTests;
+			sourceTree = "<group>";
+		};
+		D1E444F11B46BA88000708D5 /* ArkalivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1E444F21B46BA88000708D5 /* ArkalivUITests.swift */,
+				D1E444F41B46BA88000708D5 /* Info.plist */,
+			);
+			path = ArkalivUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1E444CE1B46BA88000708D5 /* Arkaliv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E444F71B46BA88000708D5 /* Build configuration list for PBXNativeTarget "Arkaliv" */;
+			buildPhases = (
+				D1E444CB1B46BA88000708D5 /* Sources */,
+				D1E444CC1B46BA88000708D5 /* Frameworks */,
+				D1E444CD1B46BA88000708D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arkaliv;
+			productName = Arkaliv;
+			productReference = D1E444CF1B46BA88000708D5 /* Arkaliv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1E444E21B46BA88000708D5 /* ArkalivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E444FA1B46BA88000708D5 /* Build configuration list for PBXNativeTarget "ArkalivTests" */;
+			buildPhases = (
+				D1E444DF1B46BA88000708D5 /* Sources */,
+				D1E444E01B46BA88000708D5 /* Frameworks */,
+				D1E444E11B46BA88000708D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1E444E51B46BA88000708D5 /* PBXTargetDependency */,
+			);
+			name = ArkalivTests;
+			productName = ArkalivTests;
+			productReference = D1E444E31B46BA88000708D5 /* ArkalivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1E444ED1B46BA88000708D5 /* ArkalivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E444FD1B46BA88000708D5 /* Build configuration list for PBXNativeTarget "ArkalivUITests" */;
+			buildPhases = (
+				D1E444EA1B46BA88000708D5 /* Sources */,
+				D1E444EB1B46BA88000708D5 /* Frameworks */,
+				D1E444EC1B46BA88000708D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1E444F01B46BA88000708D5 /* PBXTargetDependency */,
+			);
+			name = ArkalivUITests;
+			productName = ArkalivUITests;
+			productReference = D1E444EE1B46BA88000708D5 /* ArkalivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1E444C71B46BA88000708D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jack Cable";
+				TargetAttributes = {
+					D1E444CE1B46BA88000708D5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D1E444E21B46BA88000708D5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D1E444CE1B46BA88000708D5;
+					};
+					D1E444ED1B46BA88000708D5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D1E444CE1B46BA88000708D5;
+					};
+				};
+			};
+			buildConfigurationList = D1E444CA1B46BA88000708D5 /* Build configuration list for PBXProject "Arkaliv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1E444C61B46BA88000708D5;
+			productRefGroup = D1E444D01B46BA88000708D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1E444CE1B46BA88000708D5 /* Arkaliv */,
+				D1E444E21B46BA88000708D5 /* ArkalivTests */,
+				D1E444ED1B46BA88000708D5 /* ArkalivUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1E444CD1B46BA88000708D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E444DD1B46BA88000708D5 /* LaunchScreen.storyboard in Resources */,
+				D1E444DA1B46BA88000708D5 /* Assets.xcassets in Resources */,
+				D1E444D81B46BA88000708D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E444E11B46BA88000708D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E444EC1B46BA88000708D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1E444CB1B46BA88000708D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E444D51B46BA88000708D5 /* ViewController.swift in Sources */,
+				D1E444D31B46BA88000708D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E444DF1B46BA88000708D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E444E81B46BA88000708D5 /* ArkalivTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E444EA1B46BA88000708D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E444F31B46BA88000708D5 /* ArkalivUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1E444E51B46BA88000708D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E444CE1B46BA88000708D5 /* Arkaliv */;
+			targetProxy = D1E444E41B46BA88000708D5 /* PBXContainerItemProxy */;
+		};
+		D1E444F01B46BA88000708D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E444CE1B46BA88000708D5 /* Arkaliv */;
+			targetProxy = D1E444EF1B46BA88000708D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1E444D61B46BA88000708D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E444D71B46BA88000708D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1E444DB1B46BA88000708D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E444DC1B46BA88000708D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1E444F51B46BA88000708D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1E444F61B46BA88000708D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1E444F81B46BA88000708D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arkaliv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.Arkaliv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1E444F91B46BA88000708D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arkaliv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.Arkaliv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1E444FB1B46BA88000708D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArkalivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.ArkalivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arkaliv.app/Arkaliv";
+			};
+			name = Debug;
+		};
+		D1E444FC1B46BA88000708D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArkalivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.ArkalivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arkaliv.app/Arkaliv";
+			};
+			name = Release;
+		};
+		D1E444FE1B46BA88000708D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArkalivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.ArkalivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Arkaliv;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D1E444FF1B46BA88000708D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArkalivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.ArkalivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Arkaliv;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1E444CA1B46BA88000708D5 /* Build configuration list for PBXProject "Arkaliv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E444F51B46BA88000708D5 /* Debug */,
+				D1E444F61B46BA88000708D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E444F71B46BA88000708D5 /* Build configuration list for PBXNativeTarget "Arkaliv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E444F81B46BA88000708D5 /* Debug */,
+				D1E444F91B46BA88000708D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1E444FA1B46BA88000708D5 /* Build configuration list for PBXNativeTarget "ArkalivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E444FB1B46BA88000708D5 /* Debug */,
+				D1E444FC1B46BA88000708D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1E444FD1B46BA88000708D5 /* Build configuration list for PBXNativeTarget "ArkalivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E444FE1B46BA88000708D5 /* Debug */,
+				D1E444FF1B46BA88000708D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1E444C71B46BA88000708D5 /* Project object */;
+}
