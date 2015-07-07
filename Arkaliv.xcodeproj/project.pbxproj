@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D16398091B4C58C40090D085 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16398061B4C58C40090D085 /* HomeTableViewController.swift */; };
+		D163980A1B4C58C40090D085 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16398071B4C58C40090D085 /* SignInViewController.swift */; };
+		D163980B1B4C58C40090D085 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16398081B4C58C40090D085 /* SignUpViewController.swift */; };
 		D1E444D31B46BA88000708D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444D21B46BA88000708D5 /* AppDelegate.swift */; };
 		D1E444D81B46BA88000708D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E444D61B46BA88000708D5 /* Main.storyboard */; };
 		D1E444DA1B46BA88000708D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E444D91B46BA88000708D5 /* Assets.xcassets */; };
 		D1E444DD1B46BA88000708D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E444DB1B46BA88000708D5 /* LaunchScreen.storyboard */; };
 		D1E444E81B46BA88000708D5 /* ArkalivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444E71B46BA88000708D5 /* ArkalivTests.swift */; };
 		D1E444F31B46BA88000708D5 /* ArkalivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444F21B46BA88000708D5 /* ArkalivUITests.swift */; };
-		D1E445031B46BAD9000708D5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E445021B46BAD9000708D5 /* SignUpViewController.swift */; };
-		D1E445051B46BADF000708D5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E445041B46BADF000708D5 /* SignInViewController.swift */; };
-		D1E445071B46BB1A000708D5 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E445061B46BB1A000708D5 /* HomeTableViewController.swift */; };
 		D1E445091B46C120000708D5 /* LinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E445081B46C120000708D5 /* LinkTableViewCell.swift */; };
 		D1E4450B1B46DD94000708D5 /* ServerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4450A1B46DD94000708D5 /* ServerHelper.swift */; };
 		D1E4450F1B46E70E000708D5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4450E1B46E70E000708D5 /* SwiftyJSON.swift */; };
@@ -46,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D16398061B4C58C40090D085 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		D16398071B4C58C40090D085 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D16398081B4C58C40090D085 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D1E444CF1B46BA88000708D5 /* Arkaliv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkaliv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E444D21B46BA88000708D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E444D71B46BA88000708D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,9 +61,6 @@
 		D1E444EE1B46BA88000708D5 /* ArkalivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkalivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E444F21B46BA88000708D5 /* ArkalivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkalivUITests.swift; sourceTree = "<group>"; };
 		D1E444F41B46BA88000708D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1E445021B46BAD9000708D5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
-		D1E445041B46BADF000708D5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
-		D1E445061B46BB1A000708D5 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewController.swift; path = ../HomeTableViewController.swift; sourceTree = "<group>"; };
 		D1E445081B46C120000708D5 /* LinkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkTableViewCell.swift; sourceTree = "<group>"; };
 		D1E4450A1B46DD94000708D5 /* ServerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerHelper.swift; sourceTree = "<group>"; };
 		D1E4450E1B46E70E000708D5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
@@ -155,9 +155,9 @@
 		D1F0361A1B4AB570002E35EB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D1E445061B46BB1A000708D5 /* HomeTableViewController.swift */,
-				D1E445021B46BAD9000708D5 /* SignUpViewController.swift */,
-				D1E445041B46BADF000708D5 /* SignInViewController.swift */,
+				D16398061B4C58C40090D085 /* HomeTableViewController.swift */,
+				D16398071B4C58C40090D085 /* SignInViewController.swift */,
+				D16398081B4C58C40090D085 /* SignUpViewController.swift */,
 				D1E445101B47114A000708D5 /* UploadLinkViewController.swift */,
 				D1F0365C1B4AF455002E35EB /* ViewLinkViewController.swift */,
 				D1F036181B4AB4E5002E35EB /* CommentsTableViewController.swift */,
@@ -323,15 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16398091B4C58C40090D085 /* HomeTableViewController.swift in Sources */,
 				D1E445091B46C120000708D5 /* LinkTableViewCell.swift in Sources */,
-				D1E445071B46BB1A000708D5 /* HomeTableViewController.swift in Sources */,
 				D1E4450B1B46DD94000708D5 /* ServerHelper.swift in Sources */,
 				D1E445111B47114A000708D5 /* UploadLinkViewController.swift in Sources */,
 				D1F036211B4AC285002E35EB /* Link.swift in Sources */,
-				D1E445051B46BADF000708D5 /* SignInViewController.swift in Sources */,
-				D1E445031B46BAD9000708D5 /* SignUpViewController.swift in Sources */,
+				D163980A1B4C58C40090D085 /* SignInViewController.swift in Sources */,
 				D1E4450F1B46E70E000708D5 /* SwiftyJSON.swift in Sources */,
 				D1F0365F1B4B0A9D002E35EB /* Comment.swift in Sources */,
+				D163980B1B4C58C40090D085 /* SignUpViewController.swift in Sources */,
 				D1F0361E1B4AB5B4002E35EB /* CommentTableViewCell.swift in Sources */,
 				D1E444D31B46BA88000708D5 /* AppDelegate.swift in Sources */,
 				D1F036191B4AB4E5002E35EB /* CommentsTableViewController.swift in Sources */,
