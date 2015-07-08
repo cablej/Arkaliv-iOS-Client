@@ -15,19 +15,23 @@ class ViewLinkViewController: UIViewController {
     var postID: String = "";
     
     let serverHelper = ServerHelper()
+    let arkalivHelper = ArkalivHelper()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        arkalivHelper.initializeViewController(self)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         loadLink()
     }
     
     
     func loadLink() {
         
-        let postString = "id=\(postID)"
+        let postString = "action=GetLink&id=\(postID)"
         
-        serverHelper.sendRequest(serverHelper.GET_LINK_URL, postString:postString) {
+        serverHelper.sendRequest(serverHelper.REQUEST_URL, postString:postString) {
             response in
             
             if let error = self.serverHelper.error(response) {

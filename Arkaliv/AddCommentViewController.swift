@@ -20,6 +20,7 @@ class AddCommentViewController: UIViewController {
     var parentCommentID = ""
     
     let serverHelper = ServerHelper()
+    let arkalivHelper = ArkalivHelper()
     
     let userDefaults = NSUserDefaults.standardUserDefaults()
 
@@ -27,21 +28,23 @@ class AddCommentViewController: UIViewController {
         super.viewDidLoad()
         print(parent + " and " + parentCommentID)
         
+        arkalivHelper.initializeViewController(self)
+        
         if let username = serverHelper.getUsername() {
             usernameLabel.text = "Commenting as \(username)."
         }
         
     }
 
-    @IBAction func onReplyButtonTapped(sender: UIButton) {
+    @IBAction func onReplyButtonTapped(sender: UIBarButtonItem) {
         
         let comment = commentTextView.text
         
         if let key = serverHelper.getKey() {
             
-            let postString = "parent=\(parent)&parentComment=\(parentCommentID)&key=\(key)&text=\(comment)"
+            let postString = "action=AddComment&parent=\(parent)&parentComment=\(parentCommentID)&key=\(key)&text=\(comment)"
             
-            serverHelper.sendRequest(serverHelper.ADD_COMMENT_URL, postString: postString ) {
+            serverHelper.sendRequest(serverHelper.REQUEST_URL, postString: postString ) {
                 response in
                 
                 var message = "Successfully added comment!"

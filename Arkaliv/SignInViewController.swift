@@ -17,19 +17,21 @@ class SignInViewController: UIViewController {
     @IBOutlet var messageLabel: UILabel!
     
     let serverHelper = ServerHelper()
+    let arkalivHelper = ArkalivHelper()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        arkalivHelper.initializeViewController(self)
     }
     
     
-    @IBAction func onSignInButtonTapped(sender: UIButton) {
+    @IBAction func onSignInButtonTapped(sender: UIBarButtonItem) {
         let username = usernameTextField.text
         let password = passwordTextField.text
         
-        let postString = "username=\(username!)&password=\(password!)"
+        let postString = "action=SignIn&username=\(username!)&password=\(password!)"
         
-        serverHelper.sendRequest(serverHelper.SIGN_IN_URL, postString: postString ) {
+        serverHelper.sendRequest(serverHelper.REQUEST_URL, postString: postString ) {
             response in
             
             var message = "Successfully signed in!"

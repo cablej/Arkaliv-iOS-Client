@@ -9,13 +9,15 @@
 import UIKit
 
 class ServerHelper: NSObject {
+
+//    let SIGN_UP_URL = "http://arkaliv2.byethost10.com/SignUp.php"
+//    let SIGN_IN_URL = "http://arkaliv2.byethost10.com/SignIn.php"
+//    let GET_LINKS_URL = "http://arkaliv2.byethost10.com/GetLinks.php"
+//    let GET_LINK_URL = "http://arkaliv2.byethost10.com/GetLink.php"
+//    let UPLOAD_LINK_URL = "http://arkaliv2.byethost10.com/UploadLink.php"
+//    let ADD_COMMENT_URL = "http://arkaliv2.byethost10.com/AddComment.php"
     
-    let SIGN_UP_URL = "http://arkaliv2.byethost10.com/SignUp.php"
-    let SIGN_IN_URL = "http://arkaliv2.byethost10.com/SignIn.php"
-    let GET_LINKS_URL = "http://arkaliv2.byethost10.com/GetLinks.php"
-    let GET_LINK_URL = "http://arkaliv2.byethost10.com/GetLink.php"
-    let UPLOAD_LINK_URL = "http://arkaliv2.byethost10.com/UploadLink.php"
-    let ADD_COMMENT_URL = "http://arkaliv2.byethost10.com/AddComment.php"
+    let REQUEST_URL = "http://arkaliv2.byethost10.com/request.php"
     
     func sendRequest(url: String, postString: String, completionHandler : (String) -> ()){
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)

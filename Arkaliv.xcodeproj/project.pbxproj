@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D109060A1B4D7E6E00F40E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10906091B4D7E6E00F40E5E /* AppDelegate.swift */; };
+		D109060C1B4D7E6E00F40E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D109060B1B4D7E6E00F40E5E /* ViewController.swift */; };
+		D109060F1B4D7E6E00F40E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D109060D1B4D7E6E00F40E5E /* Main.storyboard */; };
+		D10906111B4D7E6E00F40E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10906101B4D7E6E00F40E5E /* Assets.xcassets */; };
+		D10906141B4D7E6E00F40E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10906121B4D7E6E00F40E5E /* LaunchScreen.storyboard */; };
+		D109061F1B4D7E6E00F40E5E /* MapViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D109061E1B4D7E6E00F40E5E /* MapViewTests.swift */; };
+		D109062A1B4D7E6E00F40E5E /* MapViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10906291B4D7E6E00F40E5E /* MapViewUITests.swift */; };
 		D16398091B4C58C40090D085 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16398061B4C58C40090D085 /* HomeTableViewController.swift */; };
 		D163980A1B4C58C40090D085 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16398071B4C58C40090D085 /* SignInViewController.swift */; };
 		D163980B1B4C58C40090D085 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16398081B4C58C40090D085 /* SignUpViewController.swift */; };
+		D1CC94E31B4D56B80092A321 /* ArkalivHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC94E21B4D56B80092A321 /* ArkalivHelper.swift */; };
 		D1E444D31B46BA88000708D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444D21B46BA88000708D5 /* AppDelegate.swift */; };
 		D1E444D81B46BA88000708D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E444D61B46BA88000708D5 /* Main.storyboard */; };
 		D1E444DA1B46BA88000708D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E444D91B46BA88000708D5 /* Assets.xcassets */; };
@@ -29,6 +37,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D109061B1B4D7E6E00F40E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E444C71B46BA88000708D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10906061B4D7E6E00F40E5E;
+			remoteInfo = MapView;
+		};
+		D10906261B4D7E6E00F40E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1E444C71B46BA88000708D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10906061B4D7E6E00F40E5E;
+			remoteInfo = MapView;
+		};
 		D1E444E41B46BA88000708D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D1E444C71B46BA88000708D5 /* Project object */;
@@ -46,9 +68,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D10906071B4D7E6E00F40E5E /* MapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10906091B4D7E6E00F40E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D109060B1B4D7E6E00F40E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D109060E1B4D7E6E00F40E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10906101B4D7E6E00F40E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D10906131B4D7E6E00F40E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D10906151B4D7E6E00F40E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D109061A1B4D7E6E00F40E5E /* MapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D109061E1B4D7E6E00F40E5E /* MapViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTests.swift; sourceTree = "<group>"; };
+		D10906201B4D7E6E00F40E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10906251B4D7E6E00F40E5E /* MapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10906291B4D7E6E00F40E5E /* MapViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewUITests.swift; sourceTree = "<group>"; };
+		D109062B1B4D7E6E00F40E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D16398061B4C58C40090D085 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		D16398071B4C58C40090D085 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D16398081B4C58C40090D085 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D1CC94E21B4D56B80092A321 /* ArkalivHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArkalivHelper.swift; sourceTree = "<group>"; };
 		D1E444CF1B46BA88000708D5 /* Arkaliv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkaliv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E444D21B46BA88000708D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E444D71B46BA88000708D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +110,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D10906041B4D7E6E00F40E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10906171B4D7E6E00F40E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10906221B4D7E6E00F40E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1E444CC1B46BA88000708D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,12 +155,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D10906081B4D7E6E00F40E5E /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				D10906091B4D7E6E00F40E5E /* AppDelegate.swift */,
+				D109060B1B4D7E6E00F40E5E /* ViewController.swift */,
+				D109060D1B4D7E6E00F40E5E /* Main.storyboard */,
+				D10906101B4D7E6E00F40E5E /* Assets.xcassets */,
+				D10906121B4D7E6E00F40E5E /* LaunchScreen.storyboard */,
+				D10906151B4D7E6E00F40E5E /* Info.plist */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		D109061D1B4D7E6E00F40E5E /* MapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D109061E1B4D7E6E00F40E5E /* MapViewTests.swift */,
+				D10906201B4D7E6E00F40E5E /* Info.plist */,
+			);
+			path = MapViewTests;
+			sourceTree = "<group>";
+		};
+		D10906281B4D7E6E00F40E5E /* MapViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D10906291B4D7E6E00F40E5E /* MapViewUITests.swift */,
+				D109062B1B4D7E6E00F40E5E /* Info.plist */,
+			);
+			path = MapViewUITests;
+			sourceTree = "<group>";
+		};
 		D1E444C61B46BA88000708D5 = {
 			isa = PBXGroup;
 			children = (
 				D1E444D11B46BA88000708D5 /* Arkaliv */,
 				D1E444E61B46BA88000708D5 /* ArkalivTests */,
 				D1E444F11B46BA88000708D5 /* ArkalivUITests */,
+				D10906081B4D7E6E00F40E5E /* MapView */,
+				D109061D1B4D7E6E00F40E5E /* MapViewTests */,
+				D10906281B4D7E6E00F40E5E /* MapViewUITests */,
 				D1E444D01B46BA88000708D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +205,9 @@
 				D1E444CF1B46BA88000708D5 /* Arkaliv.app */,
 				D1E444E31B46BA88000708D5 /* ArkalivTests.xctest */,
 				D1E444EE1B46BA88000708D5 /* ArkalivUITests.xctest */,
+				D10906071B4D7E6E00F40E5E /* MapView.app */,
+				D109061A1B4D7E6E00F40E5E /* MapViewTests.xctest */,
+				D10906251B4D7E6E00F40E5E /* MapViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +265,7 @@
 			children = (
 				D1E4450A1B46DD94000708D5 /* ServerHelper.swift */,
 				D1E4450E1B46E70E000708D5 /* SwiftyJSON.swift */,
+				D1CC94E21B4D56B80092A321 /* ArkalivHelper.swift */,
 			);
 			name = "Helper classes";
 			sourceTree = "<group>";
@@ -196,6 +291,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D10906061B4D7E6E00F40E5E /* MapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10906321B4D7E6E00F40E5E /* Build configuration list for PBXNativeTarget "MapView" */;
+			buildPhases = (
+				D10906031B4D7E6E00F40E5E /* Sources */,
+				D10906041B4D7E6E00F40E5E /* Frameworks */,
+				D10906051B4D7E6E00F40E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapView;
+			productName = MapView;
+			productReference = D10906071B4D7E6E00F40E5E /* MapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10906191B4D7E6E00F40E5E /* MapViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10906331B4D7E6E00F40E5E /* Build configuration list for PBXNativeTarget "MapViewTests" */;
+			buildPhases = (
+				D10906161B4D7E6E00F40E5E /* Sources */,
+				D10906171B4D7E6E00F40E5E /* Frameworks */,
+				D10906181B4D7E6E00F40E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D109061C1B4D7E6E00F40E5E /* PBXTargetDependency */,
+			);
+			name = MapViewTests;
+			productName = MapViewTests;
+			productReference = D109061A1B4D7E6E00F40E5E /* MapViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D10906241B4D7E6E00F40E5E /* MapViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10906341B4D7E6E00F40E5E /* Build configuration list for PBXNativeTarget "MapViewUITests" */;
+			buildPhases = (
+				D10906211B4D7E6E00F40E5E /* Sources */,
+				D10906221B4D7E6E00F40E5E /* Frameworks */,
+				D10906231B4D7E6E00F40E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10906271B4D7E6E00F40E5E /* PBXTargetDependency */,
+			);
+			name = MapViewUITests;
+			productName = MapViewUITests;
+			productReference = D10906251B4D7E6E00F40E5E /* MapViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D1E444CE1B46BA88000708D5 /* Arkaliv */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E444F71B46BA88000708D5 /* Build configuration list for PBXNativeTarget "Arkaliv" */;
@@ -258,6 +406,17 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Jack Cable";
 				TargetAttributes = {
+					D10906061B4D7E6E00F40E5E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D10906191B4D7E6E00F40E5E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D10906061B4D7E6E00F40E5E;
+					};
+					D10906241B4D7E6E00F40E5E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D10906061B4D7E6E00F40E5E;
+					};
 					D1E444CE1B46BA88000708D5 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -287,11 +446,38 @@
 				D1E444CE1B46BA88000708D5 /* Arkaliv */,
 				D1E444E21B46BA88000708D5 /* ArkalivTests */,
 				D1E444ED1B46BA88000708D5 /* ArkalivUITests */,
+				D10906061B4D7E6E00F40E5E /* MapView */,
+				D10906191B4D7E6E00F40E5E /* MapViewTests */,
+				D10906241B4D7E6E00F40E5E /* MapViewUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D10906051B4D7E6E00F40E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10906141B4D7E6E00F40E5E /* LaunchScreen.storyboard in Resources */,
+				D10906111B4D7E6E00F40E5E /* Assets.xcassets in Resources */,
+				D109060F1B4D7E6E00F40E5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10906181B4D7E6E00F40E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10906231B4D7E6E00F40E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1E444CD1B46BA88000708D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +505,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D10906031B4D7E6E00F40E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D109060C1B4D7E6E00F40E5E /* ViewController.swift in Sources */,
+				D109060A1B4D7E6E00F40E5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10906161B4D7E6E00F40E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D109061F1B4D7E6E00F40E5E /* MapViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10906211B4D7E6E00F40E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D109062A1B4D7E6E00F40E5E /* MapViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1E444CB1B46BA88000708D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,6 +537,7 @@
 				D16398091B4C58C40090D085 /* HomeTableViewController.swift in Sources */,
 				D1E445091B46C120000708D5 /* LinkTableViewCell.swift in Sources */,
 				D1E4450B1B46DD94000708D5 /* ServerHelper.swift in Sources */,
+				D1CC94E31B4D56B80092A321 /* ArkalivHelper.swift in Sources */,
 				D1E445111B47114A000708D5 /* UploadLinkViewController.swift in Sources */,
 				D1F036211B4AC285002E35EB /* Link.swift in Sources */,
 				D163980A1B4C58C40090D085 /* SignInViewController.swift in Sources */,
@@ -359,6 +571,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D109061C1B4D7E6E00F40E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10906061B4D7E6E00F40E5E /* MapView */;
+			targetProxy = D109061B1B4D7E6E00F40E5E /* PBXContainerItemProxy */;
+		};
+		D10906271B4D7E6E00F40E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10906061B4D7E6E00F40E5E /* MapView */;
+			targetProxy = D10906261B4D7E6E00F40E5E /* PBXContainerItemProxy */;
+		};
 		D1E444E51B46BA88000708D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D1E444CE1B46BA88000708D5 /* Arkaliv */;
@@ -372,6 +594,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D109060D1B4D7E6E00F40E5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D109060E1B4D7E6E00F40E5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10906121B4D7E6E00F40E5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10906131B4D7E6E00F40E5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D1E444D61B46BA88000708D5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -391,6 +629,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D109062C1B4D7E6E00F40E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.MapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D109062D1B4D7E6E00F40E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.MapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D109062E1B4D7E6E00F40E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.MapViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapView.app/MapView";
+			};
+			name = Debug;
+		};
+		D109062F1B4D7E6E00F40E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.MapViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapView.app/MapView";
+			};
+			name = Release;
+		};
+		D10906301B4D7E6E00F40E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.MapViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D10906311B4D7E6E00F40E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cable.MapViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		D1E444F51B46BA88000708D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -549,6 +857,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D10906321B4D7E6E00F40E5E /* Build configuration list for PBXNativeTarget "MapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D109062C1B4D7E6E00F40E5E /* Debug */,
+				D109062D1B4D7E6E00F40E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D10906331B4D7E6E00F40E5E /* Build configuration list for PBXNativeTarget "MapViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D109062E1B4D7E6E00F40E5E /* Debug */,
+				D109062F1B4D7E6E00F40E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D10906341B4D7E6E00F40E5E /* Build configuration list for PBXNativeTarget "MapViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10906301B4D7E6E00F40E5E /* Debug */,
+				D10906311B4D7E6E00F40E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D1E444CA1B46BA88000708D5 /* Build configuration list for PBXProject "Arkaliv" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

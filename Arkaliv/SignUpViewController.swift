@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UITableViewController {
 
     @IBOutlet var usernameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
@@ -17,19 +17,22 @@ class SignUpViewController: UIViewController {
     @IBOutlet var messageLabel: UILabel!
     
     let serverHelper = ServerHelper()
+    let arkalivHelper = ArkalivHelper()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        arkalivHelper.initializeViewController(self)
+        tableView.backgroundColor = UIColor.whiteColor()
     }
 
-    @IBAction func onSignUpButtonTapped(sender: UIButton) {
+    @IBAction func onSignUpButtonTapped(sender: UIBarButtonItem) {
         let username = usernameTextField.text!
         if let password = passwordTextField.text == confirmPasswordTextField.text! ? passwordTextField.text : nil {
             
-            let postString = "username=\(username)&password=\(password)"
+            let postString = "action=SignUp&username=\(username)&password=\(password)"
             
-            serverHelper.sendRequest(serverHelper.SIGN_UP_URL, postString: postString ) {
+            serverHelper.sendRequest(serverHelper.REQUEST_URL, postString: postString ) {
                 response in
                 
                 var message = "Successfully signed up!"
@@ -38,11 +41,11 @@ class SignUpViewController: UIViewController {
                     message = error
                 } else {
                     self.serverHelper.saveUserInformation(response)
+                    self.dismissView()
                 }
                 
                 dispatch_async(dispatch_get_main_queue()) {
                     self.messageLabel.text = message
-                    self.dismissView()
                 }
             }
             

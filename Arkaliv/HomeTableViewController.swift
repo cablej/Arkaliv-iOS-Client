@@ -16,16 +16,20 @@ class HomeTableViewController: UITableViewController {
     @IBOutlet var usernameButton: UIBarButtonItem!
     
     let serverHelper = ServerHelper()
-    
+    let arkalivHelper = ArkalivHelper()
     var links: [Link] = []
-    
     let userDefaults = NSUserDefaults.standardUserDefaults()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        arkalivHelper.initializeViewController(self)
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        
+        tableView.backgroundColor = UIColor.whiteColor()
+        
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewWillAppear(animated: Bool) {
         updateUsername()
         updateLinks()
     }
@@ -39,7 +43,7 @@ class HomeTableViewController: UITableViewController {
     }
     
     func updateLinks() {
-        serverHelper.sendRequest(serverHelper.GET_LINKS_URL, postString:"") {
+        serverHelper.sendRequest(serverHelper.REQUEST_URL, postString:"action=GetLinks") {
             response in
             
             self.links = []

@@ -17,9 +17,11 @@ class UploadLinkViewController: UIViewController {
     @IBOutlet var messageLabel: UILabel!
     
     let serverHelper = ServerHelper()
+    let arkalivHelper = ArkalivHelper()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        arkalivHelper.initializeViewController(self)
     }
 
     @IBAction func onUploadButtonTapped(sender: AnyObject) {
@@ -28,9 +30,9 @@ class UploadLinkViewController: UIViewController {
         
         if let key = serverHelper.getKey() {
             
-            let postString = "url=\(url)&title=\(title)&key=\(key)"
+            let postString = "action=UploadLink&url=\(url)&title=\(title)&key=\(key)"
             
-            serverHelper.sendRequest(serverHelper.UPLOAD_LINK_URL, postString: postString ) {
+            serverHelper.sendRequest(serverHelper.REQUEST_URL, postString: postString ) {
                 response in
                 
                 var message = "Successfully uploaded link!"
